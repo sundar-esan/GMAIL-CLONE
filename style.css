@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.headerLeft img{
+    object-fit: contain;
+    height:80px;
+    margin-left:5px;
+
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-top: 1px solid whitesmoke;
+}
+.headerLeft{
+    display:flex;
+    align-items: center;
+}
+.headerLeft span{
+    padding:10px;
+    cursor: pointer;
+}
+.headerMiddle{
+    display:flex;
+    flex:0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding:10px;
+    border-radius: 5px;
+
+}
+.material-icons{
+    color:gray;
+}
+.headerMiddle input{
+    border:none;
+    width:100%;
+    padding:10px;
+    outline:none;
+    font-size: medium;
+    background-color: transparent;
+}
+.headerRight{
+    display:flex;
+    padding-right:20px;
+}
+.headerRight span{
+    padding:10px;
+    cursor:pointer;
+}
+
+/* sidebar  */
+
+.sideBar{
+    flex:0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.sideBarCompose{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: grey;
+    padding:15px;
+    border-radius: 30px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    outline:none;
+    border:none;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+
+.sideBarCompose span{
+    margin-right: 5px;
+}
+
+.sideBarOption{
+    display:flex;
+    align-items: center;
+    height:40px;
+    padding:0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color:#818181;
+}
+
+.sideBarOption .material-icons{
+    padding: 5px;
+}
+.sideBarOption h3{
+    flex:1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sideBarOption:hover,
+.sideBarOption:hover h3,
+.sideBarOption:hover .material-icons,
+.sideBarOptionActive,
+.sideBarOptionActive h3,
+.sideBarOptionActive .material-icons{
+    background-color : #fcecec;
+    color:#c04b37;
+    font-weight: 800;
+
+}
+
+.sideBarFooter{
+    display:flex;
+    justify-content: center;
+}
+
+.sideBarFooterIcons .material-icons{
+    margin:7px;
+    cursor: pointer;
+}
+
+/*main body*/
+.mainBody{
+    display:flex;
+    height:100vh;
+}
+
+
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+
+    <title>Gmail Clone</title>
+
+</head>
+<body>
+    <!--Header section starts-->
+
+      <div class="header">
+          <div  class="headerLeft">
+            <span class="material-icons">
+                menu
+                </span>
+                <img src="https://cdn.vox-cdn.com/thumbor/g_nyLm8AT_WA7a79K-EhRZV0sE0=/0x0:1320x880/920x613/filters:focal(555x335:765x545):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67587450/newgmaillogo.0.jpg" alt="GMAIL" >
+                   
+          </div>
+          
+          <div class="headerMiddle">
+            <span class="material-icons">
+              search
+            </span>
+            <input type="text"   placeholder="search mail">
+            <span class="material-icons">
+              arrow_drop_down
+              </span>
+             
+            
+
+          </div>
+          <div class="headerRight">
+            <span class="material-icons">
+              help_outline
+              </span>
+              <span class="material-icons">
+                settings
+                </span>
+                <span class="material-icons">
+                  apps
+                  </span>
+                  <span class="material-icons">
+                    notifications
+                    </span>
+                    <span class="material-icons">
+                      account_circle
+                      </span>
+
+          </div>
+      </div>
+
+    <!--Header section ends-->
+ 
+<!--Main body starts-->
+
+<div class="mainBody">
+  <!--sidebar starts-->
+  <div class="sideBar">
+    <button class="sideBarCompose">
+      <span class="material-icons">
+        add
+        </span>
+      Compose
+    </button>
+    <div class="sideBarOption  sideBarOptionActive">
+      <span class="material-icons">
+        inbox
+        </span>
+        <h3>Inbox</h3>
+    </div>
+    <div class="sideBarOption">
+      <span class="material-icons">
+        star
+        </span>
+        <h3>Starred</h3>
+    </div>
+    <div class="sideBarOption">
+      <span class="material-icons">
+        access_time
+        </span>
+      <h3>Snoozed</h3>
+    </div>
+    <div class="sideBarOption">
+      <span class="material-icons">
+        label_important
+        </span>
+      <h3>Important</h3>
+    </div>
+    <div class="sideBarOption">
+      <span class="material-icons">
+        near_me
+        </span>
+      <h3>Sent</h3>
+    </div>
+    <div class="sideBarOption">
+      <span class="material-icons">
+        note
+        </span>
+      <h3>Draft</h3>
+    </div>
+    <div class="sideBarOption">
+      <span class="material-icons">
+        expand_more
+        </span>
+      <h3>More</h3>
+    </div>
+   
+    <div class="sideBarFooter">
+      <div class="sideBarFooterIcons">
+        <span class="material-icons">
+          person
+          </span>
+          <span class="material-icons">
+            duo
+            </span>
+            <span class="material-icons">
+              phone
+              </span>
+
+      </div>
+        
+    </div>
+
+
+
+  </div>
+
+  <!--sidebar ends-->
+  
+
+    <!--email list starts-->
+
+
+    <div>
+      <p>Gmail API Quickstart</p>
+
+      <!--Add buttons to initiate auth sequence and sign out-->
+      <button id="authorize_button" style="display: none;">Authorize</button>
+      <button id="signout_button" style="display: none;">Sign Out</button>
+  
+      <pre id="content" style="white-space: pre-wrap;"></pre>
+
+
+    </div>
+
+    <!--email list ends-->
+    <div class="emailListSelections">
+
+      <div class="selection">
+        <span class="material-icons">inbox</span>
+
+        <h4>Primary</h4>
+      </div>
+
+      <div class="selection">
+        <span class="material-icons">people</span>
+
+        <h4>Social</h4>
+      </div>
+
+      <div class="selection">
+        <span class="material-icons">local_offer</span>
+
+        <h4>Promotions</h4>
+      </div>
+    </div>
+
+
+
+
+</div>
+<!--Main body ends-->
+    
+</body>
+</html>
